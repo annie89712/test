@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="css/csshake.min.css">
+<link type="text/css" href="css/csshake.min.css">
+
+<style type="text/css">
+body {
+	background-color: #9CF;
+	background-image: url(file:///D|/%E5%9B%9B%E4%BA%92%E5%8B%95%E4%BA%8C%E4%BD%9C%E6%A5%AD/102AC2024%E5%BC%B5%E9%9B%85%E7%AD%91(%E7%B6%B2%E9%A0%81)/B3.png);
+	background-repeat: no-repeat;
+	background-image: url(B3.png);
+}
+body,td,th {
+	font-size: 18px;
+	color: #003;
+	font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+<script type ="text/javascript">
+function AlertIt(){
+	//亂數
+	var myrandom = Math.round(Math.random()*2)
+	var messages = new Array()
+    //白痴的話
+	messages[0] = "哈囉你好嗎？"
+	messages[1] = "忠心感謝"
+	messages[2] = "期待再相逢！"
+	//link 
+	var links = new Array()
+	links[0] = "https://www.google.com.tw/"
+	links[1] = "https://www.youtube.com/"
+	links[2] ="https://www.google.com.tw/maps/"
+	links[3] ="https://translate.google.com.tw/"
+	//呼叫確認視窗
+	var answer = confirm(messages[myrandom])
+	if (answer){
+		window.location = links[myrandom]
+		}else{
+		window.location = links[3]	
+		}
+}
+</script>
+    <table width="100%" height ="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" valign="middle">
+    <p>Hello world! Im rina.
+    <div class="shake shake-vertical"><a href="video.html">揪瞇</a></div></p><a href="javascript:AlertIt();">
+    <div class="shake shake-little">
+    <a href = "javascript:AlertIt();"><img src ="rina.png"
+    width = "25%" height = "auto"><p>按我</p></a> 
+    </div>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+
+
